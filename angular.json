@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/ol/ol.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ng-openlayers-map"
+    }
+  },
+  "defaultProject": "ng-openlayers-map",
+  "cli": {
+    "analytics": "31fde0c3-67f0-400e-9057-2e4f105326db"
+  }
 }
